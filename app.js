@@ -79,7 +79,7 @@ const createSlider = () => {
   //const duration = parseInt(document.getElementById('duration').value) >= 1000 || 1000;
   let duration = 0;
   if (parseInt(document.getElementById('duration').value) < 1000) {
-    alert('Value cannot less than 1000ms do you want to set timer at 1000ms')
+    alert('Value cannot less than 1000ms Default timer set at 1000ms')
     duration = 1000;
   } else {
     duration = parseInt(document.getElementById('duration').value);
